@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&family=Roboto&display=swap');
+
+.botao{
+    display: flex;
+    flex: row;
+    width: 350px;
+    height: 50px;
+    margin: 10px;
+    background-color: aquamarine;
+    border: 1px solid blue;
+    border-radius: 5px;
+    font-family: 'Pirata One', cursive;
+    font-weight: 400;
+    font-size:20px;
+    padding: 10px;
+}
+.caixaderespostas{
+    width: 400px;
+    height: 300px;
+    border: 1px solid rgb(91, 157, 201);
+    padding: 10px;
+    justify-content: center;
+    color: aquamarine;
+    position: relative;
+    
+
+}
+.textopq{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}

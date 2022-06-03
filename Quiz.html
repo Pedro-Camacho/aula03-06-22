@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respostas</title>
+    <link rel="stylesheet" href="estilorespostas.css" type="text/css">
+    <script src="new 1.js"></script>
+</head>
+<body>
+
+    <button id="startbttn" onclick="start()">Começar</button>
+    <div id="questionario" style="display:none" onload="loadperguntas()">
+      <div id="resultado" >Score = <span id="score">0</span></div>
+    <div id="pergunta1" class="caixaderespostas" >
+        <span class="textopq">pergunta1</span>
+        <button class="botao" onclick="responder1(0)">resposta 1</button>
+        <button class="botao" onclick="responder1(0)">resposta 2</button>
+        <button class="botao" onclick="responder1(0)">resposta 3</button>
+        <button class="botao" onclick="responder1(1)">resposta 4</button>
+    </div>
+    <div id="pergunta2" class="caixaderespostas" style="display:none">
+        <span class="textopq">pergunta2</span>
+        <button class="botao" onclick="responder2(0)">resposta 1</button>
+        <button class="botao" onclick="responder2(1)">resposta 2</button>
+        <button class="botao" onclick="responder2(0)">resposta 3</button>
+        <button class="botao" onclick="responder2(0)">resposta 4</button>
+    </div>
+    <div id="pergunta3" class="caixaderespostas" style="display:none">
+        <span class="textopq">pergunta3</span>
+        <button class="botao" onclick="responder3(0)">resposta 1</button>
+        <button class="botao" onclick="responder3(0)">resposta 2</button>
+        <button class="botao" onclick="responder3(1)">resposta 3</button>
+        <button class="botao" onclick="responder3(0)">resposta 4</button>
+    </div>
+    <div id="pergunta4" class="caixaderespostas" style="display:none">
+        <span class="textopq">pergunta4</span>
+        <button class="botao" onclick="responder4(0)">resposta 1</button>
+        <button class="botao" onclick="responder4(0)">resposta 2</button>
+        <button class="botao" onclick="responder4(1)">resposta 3</button>
+        <button class="botao" onclick="responder4(0)">resposta 4</button>
+    </div>
+      
+    </div>
+    
+</body>
+</html>
