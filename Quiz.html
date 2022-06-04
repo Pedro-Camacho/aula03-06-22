@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Respostas</title>
     <link rel="stylesheet" href="estilorespostas.css" type="text/css">
-    <script src="new 1.js"></script>
-</head>
-<body>
+    <script src="scriptrespostas.js"></script>
+</head>		
+<body id="corpo">
 
-    <button id="startbttn" onclick="start()">Começar</button>
+    <button id="startbttn" onclick="init()">Começar </button>
     <div id="questionario" style="display:none" onload="loadperguntas()">
       <div id="resultado" >Score = <span id="score">0</span></div>
     <div id="pergunta1" class="caixaderespostas" >
@@ -41,6 +41,52 @@
         <button class="botao" onclick="responder4(1)">resposta 3</button>
         <button class="botao" onclick="responder4(0)">resposta 4</button>
     </div>
+	<div id="pergunta5" class="caixaderespostas" style="display:none">
+        <span class="textopq">pergunta5</span>
+        <button class="botao" onclick="responder5(0)">resposta 1</button>
+        <button class="botao" onclick="responder5(0)">resposta 2</button>
+        <button class="botao" onclick="responder5(0)">resposta 3</button>
+        <button class="botao" onclick="responder5(0)">resposta 4</button>
+    </div>
+	<div id="pergunta6" class="caixaderespostas" style="display:none">
+        <span class="textopq">pergunta6</span>
+        <button class="botao" onclick="responder6(0)">resposta 1</button>
+        <button class="botao" onclick="responder6(0)">resposta 2</button>
+        <button class="botao" onclick="responder6(1)">resposta 3</button>
+        <button class="botao" onclick="responder6(0)">resposta 4</button>
+    </div>
+	<div id="pergunta7" class="caixaderespostas" style="display:none">
+        <span class="textopq">pergunta7</span>
+        <button class="botao" onclick="responder7(0)">resposta 1</button>
+        <button class="botao" onclick="responder7(0)">resposta 2</button>
+        <button class="botao" onclick="responder7(1)">resposta 3</button>
+        <button class="botao" onclick="responder7(0)">resposta 4</button>
+    </div>
+	<div id="pergunta8" class="caixaderespostas" style="display:none">
+        <span class="textopq">pergunta8</span>
+        <button class="botao" onclick="responder8(0)">resposta 1</button>
+        <button class="botao" onclick="responder8(0)">resposta 2</button>
+        <button class="botao" onclick="responder8(1)">resposta 3</button>
+        <button class="botao" onclick="responder8(0)">resposta 4</button>
+    </div>
+	<div id="pergunta9" class="caixaderespostas" style="display:none">
+        <span class="textopq">pergunta9</span>
+        <button class="botao" onclick="responder9(0)">resposta 1</button>
+        <button class="botao" onclick="responder9(0)">resposta 2</button>
+        <button class="botao" onclick="responder9(1)">resposta 3</button>
+        <button class="botao" onclick="responder9(0)">resposta 4</button>
+    </div>
+	<div id="pergunta10" class="caixaderespostas" style="display:none">
+        <span class="textopq">pergunta10</span>
+        <button class="botao" onclick="responder10(0)">resposta 1</button>
+        <button class="botao" onclick="responder10(0)">resposta 2</button>
+        <button class="botao" onclick="responder10(1)">resposta 3</button>
+        <button class="botao" onclick="responder10(0)">resposta 4</button>
+    </div>
+	<div id="fimquiz" style="display:none">
+	<span>Fim do Quiz :)</span>
+	<img href="luffy.png"></img>
+	</div>
       
     </div>
     
